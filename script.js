@@ -1,33 +1,3 @@
-// let sections = document.querySelectorAll('.section');
-
-// let divs = document.querySelectorAll('.box');
-
-// window.onscroll = scrollWindow;
-
-// function scrollWindow() {
-//     sections.forEach(sec => {
-//         let scrollDistance = window.scrollY;
-//         let secDistance = sec.offsetTop;
-
-//         if(scrollDistance >= secDistance - 450) {
-//             sec.classList.add('show-animate');
-//         }
-//         else if (scrollDistance <= secDistance + 450) {
-//             sec.classList.remove('show-animate');
-//         }
-//     })
-// }
-
-
-// function test () {
-//     if (scrollDist < '5px') {
-//         document.body.style.backgroundColor = 'yellow'
-//     } else if (scrollDist > '5px') {
-//         document.body.style.backgroundColor = '#0a0a0a'
-//     }
-// }
-
-// window.onscroll = test;
 
 
 //Check if the document is loaded (so that this script can be placed in the <head>)
@@ -82,12 +52,9 @@ function mobileMenu () {
     // console.log('it was clicked')
   }
 
-
-
 mobileButton.addEventListener('click', mobileMenu);
 mobileButton.addEventListener('click', navContent);
 // navLink.addEventListener('click', test);
-
 
 navLink.forEach((linkItem) => {
   linkItem.addEventListener('click', () => {
@@ -100,16 +67,6 @@ navLink.forEach((linkItem) => {
     }
   })
 })
-
-// function  () {
-//   mobileButton.classList.toggle('rotate');
-//   if (mobileButton.classList.contains('rotate')) {
-//     navLinks.style.display = 'block'
-//   }
-//   else {
-//     navLinks.style.display = 'none'
-//   }
-// }
 
 
 function navContent () {
