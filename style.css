@@ -418,7 +418,7 @@ header {
 
 #hero-sect {
   background-color: rgba(10, 10, 10, 90%);
-  background-image: url('./assets/images/six-hero-img.png');
+  /* background-image: url('./assets/images/six-hero-img.png'); */
   background-blend-mode: overlay;
   background-position: right top;
   background-size: cover;
