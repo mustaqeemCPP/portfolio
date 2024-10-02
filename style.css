@@ -388,6 +388,8 @@ header {
 
   >.header-btn:hover {
     transform: scale(0.93);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
 
   }
 
